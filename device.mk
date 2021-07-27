@@ -217,7 +217,7 @@ PRODUCT_PACKAGES += \
 
 # SnapdragonCamera
 PRODUCT_PACKAGES += \
-    SnapdragonCamera
+    Camera
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
