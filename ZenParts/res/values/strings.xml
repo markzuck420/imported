@@ -112,6 +112,7 @@
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
     
     <!-- Dirac settings -->
+    <bool name="default_dirac_enbled">true</bool>
     <string name="dirac_title">Dirac Sound Enhancer</string>
     <string name="dirac_summary">Optimize audio quality</string>
     <string name="dirac_headset_title">Choose headphones type</string>
