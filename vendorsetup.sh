@@ -26,3 +26,6 @@ git clone https://github.com/pkm774/packages_apps_SnapdragonCamera -b camera.lnx
 # Private repo vendor/sounds
 rm -rf vendor/sounds
 git clone https://github.com/pkm774/sounds vendor/sounds
+
+# Remove pixel-charger resources from vendor
+rm -rf vendor/descendant/charger
