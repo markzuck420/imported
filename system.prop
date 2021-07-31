@@ -182,9 +182,14 @@ persist.chg.max_volt_mv=9000
 
 #system prop for Bluetooth SOC type
 vendor.bluetooth.soc=cherokee
+#ro.bluetooth.library_name=libbluetooth_qti.so
+persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
+persist.bluetooth.a2dp_offload.disabled=false
+persist.vendor.bt.a2dp.aac_whitelist=false
+persist.vendor.qcom.bluetooth.enable.splita2dp=true
+persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxhd-aac-ldac
+ro.bluetooth.a2dp_offload.supported=true
 ro.bluetooth.library_name=libbluetooth_qti.so
-persist.vendor.btstack.enable.splita2dp=true
-persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxhd-aac
 
 # Property for backup NTP Server
 persist.backup.ntpServer="0.pool.ntp.org"
@@ -226,6 +231,13 @@ persist.vendor.qti.telephony.vt_cam_interface=1
 # VoWifi function
 persist.data.iwlan.enable=true
 persist.vendor.data.iwlan.enable=true
+
+# Bluetooth
+persist.bt.hfp.playbackforvr=false
+persist.bt.hfp.playbackforvoip=false
+
+# Force disable Bluetooth AAC by default
+persist.bt.a2dp.aac_disable=true
 
 # Create zram disk
 ro.vendor.qti.config.zram=true
