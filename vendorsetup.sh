@@ -19,10 +19,6 @@ git clone https://github.com/LineageOS/android_hardware_qcom_thermal -b lineage-
 rm -rf hardware/libhardware
 git clone https://github.com/LineageOS/android_hardware_libhardware -b lineage-18.0 hardware/libhardware
 
-# SnapdragonCamera
-rm -rf packages/apps/Camera
-git clone https://github.com/pkm774/packages_apps_SnapdragonCamera -b camera.lnx.3.2.r13-rel packages/apps/Camera
-
 # Private repo vendor/sounds
 rm -rf vendor/sounds
 git clone https://github.com/pkm774/sounds vendor/sounds
