@@ -170,12 +170,9 @@ persist.vendor.radio.atfwd.start=true
 #property to enable VDS WFD solution
 persist.hwc.enable_vds=1
 
-#Expose aux camera for below packages
-vendor.camera.aux.packagelist=org.codeaurora.snapcam
-
 #Whitelisting the below packages
-persist.vendor.camera.privapp.list=org.codeaurora.snapcam
-persist.camera.privapp.list=org.codeaurora.snapcam
+persist.vendor.camera.privapp.list=com.google.android.apps.cameralite
+persist.camera.privapp.list=com.google.android.apps.cameralite
 
 #set maximum supported adapter voltage
 persist.chg.max_volt_mv=9000
